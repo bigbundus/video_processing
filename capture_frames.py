@@ -3,7 +3,7 @@ import cv2
 import os
 import glob
 
-frame_skip = 10
+frame_skip = 5
 max_frames = 2000
 video_dir = 'video_processing/video_clips_fixed_faces/'
 video_files = glob.glob(video_dir + '*.mp4')
